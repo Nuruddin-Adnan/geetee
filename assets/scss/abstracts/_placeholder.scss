@@ -1,0 +1,21 @@
+%heading {
+	color: #1d1d1d;
+	font-size: 40px;
+	line-height: 48px;
+	font-family: "nulshock";
+
+	@include max(767px) {
+		font-size: 25px;
+		line-height: 30px;
+	}
+}
+
+%fs-1 {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+%fs-2 {
+	font-size: 18px;
+	line-height: 21.6px;
+}
